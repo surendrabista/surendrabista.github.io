@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mr. Surendra Kumar Bista — BPH Specialist</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="My_Profile.jpg">
+  <link rel="apple-touch-icon" href="My_Profile.jpg">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Portfolio of Mr. Surendra Kumar Bista, BPH Specialist dedicated to advancing public health through evidence-based practice and community health leadership.">
+  <meta name="keywords"
+    content="Surendra Kumar Bista, BPH Specialist, Public Health, Community Health, Health Promotion, Nepal Public Health">
+  <meta name="author" content="Mr. Surendra Kumar Bista">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mr. Surendra Kumar Bista — BPH Specialist">
+  <meta property="og:description"
+    content="BPH Specialist dedicated to community health, public health promotion, and health systems strengthening.">
+  <meta property="og:image" content="My_Profile.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap 5.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="80">
+
+  <!-- Page-wide public health background canvas (fixed, behind all content) -->
+  <canvas id="bgHealthCanvas" aria-hidden="true"></canvas>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <nav id="mainNav" class="navbar navbar-expand-lg sticky-top" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand" href="#hero">
+        <span class="brand-dot"></span>Mr. Surendra Kumar Bista
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent"
+        aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#academic">Academic</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#awards">Awards</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <a href="#" class="btn btn-primary btn-sm ms-lg-3 px-3" download>
+          <i class="bi bi-download me-1"></i>CV / Resume
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section id="hero" class="hero-section">
+    <!-- Hero health animation canvas: ECG line + floating symbols -->
+    <canvas id="heroHealthCanvas" aria-hidden="true"></canvas>
+    <div class="hero-bg-overlay"></div>
+    <div class="container position-relative z-1">
+      <div class="row align-items-center min-vh-100 py-5">
+        <div class="col-lg-6 col-md-7 order-2 order-md-1 text-center text-md-start" data-aos="fade-right"
+          data-aos-duration="900">
+          <div class="hero-tag mb-3">
+            <i class="bi bi-heart-pulse-fill me-2"></i>BPH Specialist
+          </div>
+          <h1 class="hero-title mb-3">
+            Mr. Surendra Kumar<br>
+            <span class="gradient-text">Bista</span>
+          </h1>
+          <p class="hero-subtitle mb-4">
+            BPH Specialist committed to advancing community health, health promotion,
+            and evidence-based public health practice across Nepal and beyond.
+          </p>
+          <div class="hero-meta d-flex flex-wrap gap-3 mb-5 justify-content-center justify-content-md-start">
+            <span class="hero-pill"><i class="bi bi-geo-alt-fill me-1"></i>Kathmandu, Nepal</span>
+            <span class="hero-pill"><i class="bi bi-building-fill me-1"></i>Public Health Specialist</span>
+            <span class="hero-pill"><i class="bi bi-mortarboard-fill me-1"></i>BPH</span>
+          </div>
+          <div class="d-flex gap-3 flex-wrap justify-content-center justify-content-md-start">
+            <a href="#contact" id="hero-contact-btn" class="btn btn-primary btn-lg px-4">
+              <i class="bi bi-envelope-fill me-2"></i>Get in Touch
+            </a>
+            <a href="#research" id="hero-research-btn" class="btn btn-outline-light btn-lg px-4">
+              <i class="bi bi-journal-text me-2"></i>View Research
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-5 order-1 order-md-2 text-center mb-4 mb-md-0" data-aos="fade-left"
+          data-aos-duration="900">
+          <div class="hero-image-wrapper">
+            <div class="hero-image-glow"></div>
+            <img src="My_Profile.jpg" alt="Mr. Surendra Kumar Bista" class="hero-profile-img" id="hero-profile-img">
+            <div class="hero-stat-badge badge-publications">
+              <i class="bi bi-file-earmark-text-fill"></i>
+              <span>18+<br><small>Publications</small></span>
+            </div>
+            <div class="hero-stat-badge badge-experience">
+              <i class="bi bi-briefcase-fill"></i>
+              <span>10+<br><small>Years Exp.</small></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <a href="#about"><i class="bi bi-chevron-double-down"></i></a>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       STATS BAR
+  ============================================================ -->
+  <section class="stats-bar py-4">
+    <div class="container">
+      <div class="row g-3 text-center">
+        <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="0">
+          <div class="stat-item">
+            <div class="stat-number" data-count="18">0</div>
+            <div class="stat-label">Research Publications</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="100">
+          <div class="stat-item">
+            <div class="stat-number" data-count="10">0</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="200">
+          <div class="stat-item">
+            <div class="stat-number" data-count="7">0</div>
+            <div class="stat-label">Countries Served</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="300">
+          <div class="stat-item">
+            <div class="stat-number" data-count="4">0</div>
+            <div class="stat-label">Research Grants</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ABOUT SECTION
+  ============================================================ -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5" data-aos="fade-right">
+          <div class="about-image-card">
+            <img src="My_Profile.jpg" alt="Mr. Surendra Kumar Bista" class="about-profile-img">
+            <div class="about-card-overlay">
+              <div class="about-social-links">
+                <a href="#" class="social-link" aria-label="LinkedIn" id="about-linkedin"><i
+                    class="bi bi-linkedin"></i></a>
+                <a href="#" class="social-link" aria-label="ResearchGate" id="about-researchgate"><i
+                    class="bi bi-graph-up-arrow"></i></a>
+                <a href="#" class="social-link" aria-label="Google Scholar" id="about-scholar"><i
+                    class="bi bi-mortarboard-fill"></i></a>
+                <a href="#" class="social-link" aria-label="Twitter" id="about-twitter"><i
+                    class="bi bi-twitter-x"></i></a>
+                <a href="#" class="social-link" aria-label="Email" id="about-email"><i
+                    class="bi bi-envelope-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7" data-aos="fade-left">
+          <div class="section-tag">About Me</div>
+          <h2 class="section-title">Dedicated to Advancing<br><span class="gradient-text">Public Health</span></h2>
+          <p class="about-text mb-3">
+            I am a BPH Specialist with a strong commitment to advancing <strong>community health and public health
+              promotion</strong>
+            across Nepal. My work focuses on implementing evidence-based health programs, health education,
+            and strengthening community health systems to improve health outcomes for vulnerable populations.
+          </p>
+          <p class="about-text mb-4">
+            My expertise encompasses health promotion, community health assessment, disease prevention,
+            and health policy advocacy. I am passionate about empowering communities through
+            education-driven and community-centered approaches to public health.
+          </p>
+
+          <div class="row g-3 mb-4">
+            <div class="col-sm-6">
+              <div class="about-info-item">
+                <i class="bi bi-person-fill"></i>
+                <div>
+                  <small>Full Name</small>
+                  <span>Mr. Surendra Kumar Bista, BPH</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="about-info-item">
+                <i class="bi bi-geo-alt-fill"></i>
+                <div>
+                  <small>Location</small>
+                  <span>Kathmandu, Nepal</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="about-info-item">
+                <i class="bi bi-envelope-fill"></i>
+                <div>
+                  <small>Email</small>
+                  <span>surendrabista@gmail.com</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="about-info-item">
+                <i class="bi bi-translate"></i>
+                <div>
+                  <small>Languages</small>
+                  <span>English · Nepali · Hindi</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex gap-3 flex-wrap">
+            <a href="#" id="about-cv-btn" class="btn btn-primary px-4" download>
+              <i class="bi bi-file-earmark-pdf me-2"></i>Download CV
+            </a>
+            <a href="#research" id="about-research-btn" class="btn btn-outline-primary px-4">
+              <i class="bi bi-journal-bookmark me-2"></i>Publications
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ACADEMIC / EDUCATION SECTION
+  ============================================================ -->
+  <section id="academic" class="section-padding bg-light-section">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <div class="section-tag mx-auto">Academic Background</div>
+        <h2 class="section-title">Education &amp; <span class="gradient-text">Qualifications</span></h2>
+        <p class="section-subtitle">A strong academic foundation in public health, health promotion, and community
+          health practice.</p>
+      </div>
+
+      <div class="row g-4 mb-5">
+        <!-- PhD -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
+          <div class="edu-card">
+            <div class="edu-card-icon"><i class="bi bi-mortarboard-fill"></i></div>
+            <div class="edu-badge">In Progress</div>
+            <h3 class="edu-degree">PhD in Epidemiology</h3>
+            <p class="edu-institution">Johns Hopkins Bloomberg School of Public Health</p>
+            <p class="edu-year"><i class="bi bi-calendar3 me-1"></i>2022 – Present</p>
+            <p class="edu-desc">Dissertation: <em>Social Determinants of Maternal Mortality in South Asia: A
+                Multi-Country Longitudinal Analysis</em></p>
+            <div class="edu-tags">
+              <span>Epidemiology</span>
+              <span>Biostatistics</span>
+              <span>Global Health</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- MPH -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="edu-card featured">
+            <div class="edu-card-icon"><i class="bi bi-award-fill"></i></div>
+            <div class="edu-badge featured">Graduated</div>
+            <h3 class="edu-degree">Master of Public Health (MPH)</h3>
+            <p class="edu-institution">Harvard T.H. Chan School of Public Health</p>
+            <p class="edu-year"><i class="bi bi-calendar3 me-1"></i>2015 – 2017</p>
+            <p class="edu-desc">Specialization in Global Health &amp; Population. GPA: 3.9/4.0. Dean's Award recipient.
+            </p>
+            <div class="edu-tags">
+              <span>Global Health</span>
+              <span>Health Policy</span>
+              <span>Biostatistics</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- MBBS -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="edu-card">
+            <div class="edu-card-icon"><i class="bi bi-hospital-fill"></i></div>
+            <div class="edu-badge">Graduated</div>
+            <h3 class="edu-degree">MBBS (Bachelor of Medicine)</h3>
+            <p class="edu-institution">Institute of Medicine, Tribhuvan University</p>
+            <p class="edu-year"><i class="bi bi-calendar3 me-1"></i>2008 – 2014</p>
+            <p class="edu-desc">Graduated with Distinction. Clinical rotations at TUTH and Bir Hospital, Kathmandu.</p>
+            <div class="edu-tags">
+              <span>Medicine</span>
+              <span>Community Health</span>
+              <span>Preventive Medicine</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certifications -->
+      <div data-aos="fade-up">
+        <h3 class="subsection-title mb-4"><i class="bi bi-patch-check-fill me-2 text-primary"></i>Certifications &amp;
+          Training</h3>
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-4">
+            <div class="cert-item">
+              <i class="bi bi-shield-check-fill text-primary"></i>
+              <div>
+                <strong>Global Health Security</strong>
+                <small>WHO Global Health Academy · 2023</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="cert-item">
+              <i class="bi bi-bar-chart-fill text-success"></i>
+              <div>
+                <strong>Advanced Epidemiology Methods</strong>
+                <small>CDC EXCITE Program · 2021</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="cert-item">
+              <i class="bi bi-database-fill text-warning"></i>
+              <div>
+                <strong>Health Data Analytics (R &amp; STATA)</strong>
+                <small>Coursera / Johns Hopkins · 2020</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="cert-item">
+              <i class="bi bi-heart-pulse-fill text-danger"></i>
+              <div>
+                <strong>Infectious Disease Surveillance</strong>
+                <small>ECDC Training Programme · 2019</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="cert-item">
+              <i class="bi bi-people-fill text-info"></i>
+              <div>
+                <strong>Community Health Program Design</strong>
+                <small>UNICEF Learning Passport · 2018</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="cert-item">
+              <i class="bi bi-globe2 text-purple"></i>
+              <div>
+                <strong>Health Policy &amp; Systems Research</strong>
+                <small>Alliance for HPSR · 2017</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       EXPERIENCE SECTION
+  ============================================================ -->
+  <section id="experience" class="section-padding">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <div class="section-tag mx-auto">Work History</div>
+        <h2 class="section-title">Professional <span class="gradient-text">Experience</span></h2>
+        <p class="section-subtitle">Over a decade driving public health outcomes through field research, program
+          leadership, and policy engagement.</p>
+      </div>
+
+      <div class="timeline-wrapper">
+
+        <!-- Experience Item 1 -->
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-dot">
+            <i class="bi bi-heart-pulse-fill"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Public Health Specialist</h3>
+                <p class="timeline-org"><i class="bi bi-building me-1"></i>World Health Organization (WHO) — Nepal
+                  Country Office</p>
+              </div>
+              <div class="timeline-period">
+                <span class="badge-period">Mar 2022 – Present</span>
+              </div>
+            </div>
+            <ul class="timeline-duties">
+              <li>Lead the national non-communicable disease (NCD) surveillance program covering 77 districts.</li>
+              <li>Design and oversee rollout of integrated health information systems for real-time disease reporting.
+              </li>
+              <li>Coordinate with Ministry of Health &amp; Population on health policy reform and strategic planning.
+              </li>
+              <li>Supervised a team of 12 field epidemiologists and data analysts across 5 provinces.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>NCD Surveillance</span><span>Health Systems</span><span>Policy</span><span>Team Leadership</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience Item 2 -->
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-dot">
+            <i class="bi bi-globe2"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Health Programme Officer</h3>
+                <p class="timeline-org"><i class="bi bi-building me-1"></i>UNICEF Nepal — Nutrition &amp; MCH Unit</p>
+              </div>
+              <div class="timeline-period">
+                <span class="badge-period">Jun 2018 – Feb 2022</span>
+              </div>
+            </div>
+            <ul class="timeline-duties">
+              <li>Managed a $2.4M MNCH program improving maternal and newborn health in 15 high-burden districts.</li>
+              <li>Developed community health worker training curricula reaching 2,400+ frontline health workers.</li>
+              <li>Conducted program evaluations using mixed-methods approaches; disseminated findings to stakeholders.
+              </li>
+              <li>Published 4 peer-reviewed papers on maternal health indicators during this tenure.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>MNCH</span><span>Program Management</span><span>Community Health</span><span>M&amp;E</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience Item 3 -->
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-dot">
+            <i class="bi bi-virus2"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Field Epidemiologist</h3>
+                <p class="timeline-org"><i class="bi bi-building me-1"></i>Epidemiology &amp; Disease Control Division —
+                  MoHP Nepal</p>
+              </div>
+              <div class="timeline-period">
+                <span class="badge-period">Aug 2017 – May 2018</span>
+              </div>
+            </div>
+            <ul class="timeline-duties">
+              <li>Investigated and controlled outbreaks of cholera, typhoid, and dengue in Terai districts.</li>
+              <li>Developed national epidemiological bulletin (bi-monthly) for MoHP internal communication.</li>
+              <li>Contributed to revision of National Integrated Disease Surveillance &amp; Response (IDSR) guidelines.
+              </li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Outbreak Investigation</span><span>Surveillance</span><span>IDSR</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience Item 4 -->
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-dot">
+            <i class="bi bi-person-lines-fill"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Medical Officer / Junior Researcher</h3>
+                <p class="timeline-org"><i class="bi bi-building me-1"></i>Tribhuvan University Teaching Hospital,
+                  Kathmandu</p>
+              </div>
+              <div class="timeline-period">
+                <span class="badge-period">Jan 2015 – Jul 2017</span>
+              </div>
+            </div>
+            <ul class="timeline-duties">
+              <li>Provided clinical care in the general medicine and preventive health departments.</li>
+              <li>Co-investigated hospital-based research on antimicrobial resistance patterns in Kathmandu Valley.</li>
+              <li>Contributed to departmental quality improvement initiatives and clinical audit programs.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Clinical Medicine</span><span>AMR Research</span><span>QI</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       RESEARCH ARTICLES SECTION
+  ============================================================ -->
+  <section id="research" class="section-padding bg-light-section">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <div class="section-tag mx-auto">Publications</div>
+        <h2 class="section-title">Research <span class="gradient-text">Articles</span></h2>
+        <p class="section-subtitle">Peer-reviewed publications in global health, epidemiology, and health systems
+          journals.</p>
+      </div>
+
+      <!-- Research Filter -->
+      <div class="research-filter mb-4 d-flex flex-wrap gap-2 justify-content-center" data-aos="fade-up">
+        <button class="filter-btn active" data-filter="all" id="filter-all">All</button>
+        <button class="filter-btn" data-filter="maternal" id="filter-maternal">Maternal &amp; Child Health</button>
+        <button class="filter-btn" data-filter="infectious" id="filter-infectious">Infectious Disease</button>
+        <button class="filter-btn" data-filter="policy" id="filter-policy">Health Policy</button>
+        <button class="filter-btn" data-filter="nutrition" id="filter-nutrition">Nutrition</button>
+      </div>
+
+      <div class="row g-4" id="research-grid">
+
+        <!-- Article 1 -->
+        <div class="col-md-6 col-lg-4 research-item" data-category="maternal" data-aos="fade-up" data-aos-delay="0">
+          <div class="research-card">
+            <div class="research-card-top">
+              <span class="research-tag maternal">Maternal &amp; Child Health</span>
+              <span class="research-year">2024</span>
+            </div>
+            <h3 class="research-title">Social determinants of maternal mortality in low-income settings: a multi-country
+              analysis</h3>
+            <p class="research-authors"><i class="bi bi-people me-1"></i><strong>Sharma P.</strong>, Thapa M., Koirala
+              S., et al.</p>
+            <p class="research-journal"><i class="bi bi-journal-bookmark me-1"></i>The Lancet Global Health · Vol. 12,
+              Issue 3</p>
+            <p class="research-abstract">This study examines social and structural factors driving preventable maternal
+              deaths across Nepal, Bangladesh, and Myanmar using longitudinal data from 2018–2023...</p>
+            <div class="research-metrics">
+              <span><i class="bi bi-eye me-1"></i>2,410 views</span>
+              <span><i class="bi bi-quote me-1"></i>47 citations</span>
+            </div>
+            <a href="#" class="research-link" id="pub-1">Read Article <i class="bi bi-arrow-up-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Article 2 -->
+        <div class="col-md-6 col-lg-4 research-item" data-category="infectious" data-aos="fade-up" data-aos-delay="100">
+          <div class="research-card">
+            <div class="research-card-top">
+              <span class="research-tag infectious">Infectious Disease</span>
+              <span class="research-year">2024</span>
+            </div>
+            <h3 class="research-title">Dengue fever trends and climate variability in Nepal's Terai region: 2010–2023
+            </h3>
+            <p class="research-authors"><i class="bi bi-people me-1"></i><strong>Sharma P.</strong>, Adhikari B., Rana
+              R.</p>
+            <p class="research-journal"><i class="bi bi-journal-bookmark me-1"></i>International Journal of Infectious
+              Diseases · Vol. 140</p>
+            <p class="research-abstract">A longitudinal analysis correlating dengue incidence with temperature,
+              rainfall, and urbanization patterns in five Terai districts over 13 years...</p>
+            <div class="research-metrics">
+              <span><i class="bi bi-eye me-1"></i>1,872 views</span>
+              <span><i class="bi bi-quote me-1"></i>29 citations</span>
+            </div>
+            <a href="#" class="research-link" id="pub-2">Read Article <i class="bi bi-arrow-up-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Article 3 -->
+        <div class="col-md-6 col-lg-4 research-item" data-category="policy" data-aos="fade-up" data-aos-delay="200">
+          <div class="research-card">
+            <div class="research-card-top">
+              <span class="research-tag policy">Health Policy</span>
+              <span class="research-year">2023</span>
+            </div>
+            <h3 class="research-title">Universal Health Coverage in Nepal: progress, gaps, and pathways to equity</h3>
+            <p class="research-authors"><i class="bi bi-people me-1"></i><strong>Sharma P.</strong>, Ghimire D.,
+              Bhandari N., et al.</p>
+            <p class="research-journal"><i class="bi bi-journal-bookmark me-1"></i>Health Policy &amp; Planning · Vol.
+              38, Issue 7</p>
+            <p class="research-abstract">A comprehensive assessment of UHC coverage indicators in Nepal post-2015,
+              identifying disparities by geography, gender, and socioeconomic status...</p>
+            <div class="research-metrics">
+              <span><i class="bi bi-eye me-1"></i>3,102 views</span>
+              <span><i class="bi bi-quote me-1"></i>61 citations</span>
+            </div>
+            <a href="#" class="research-link" id="pub-3">Read Article <i class="bi bi-arrow-up-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Article 4 -->
+        <div class="col-md-6 col-lg-4 research-item" data-category="nutrition" data-aos="fade-up" data-aos-delay="0">
+          <div class="research-card">
+            <div class="research-card-top">
+              <span class="research-tag nutrition">Nutrition</span>
+              <span class="research-year">2023</span>
+            </div>
+            <h3 class="research-title">Stunting prevalence and infant feeding practices in Karnali Province: a
+              community-based cross-sectional study</h3>
+            <p class="research-authors"><i class="bi bi-people me-1"></i><strong>Sharma P.</strong>, KC S., Pokhrel B.
+            </p>
+            <p class="research-journal"><i class="bi bi-journal-bookmark me-1"></i>Maternal &amp; Child Nutrition · Vol.
+              19, Issue 2</p>
+            <p class="research-abstract">Analysis of stunting rates and associated infant and young child feeding (IYCF)
+              practices in remote mountain communities of Nepal...</p>
+            <div class="research-metrics">
+              <span><i class="bi bi-eye me-1"></i>987 views</span>
+              <span><i class="bi bi-quote me-1"></i>18 citations</span>
+            </div>
+            <a href="#" class="research-link" id="pub-4">Read Article <i class="bi bi-arrow-up-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Article 5 -->
+        <div class="col-md-6 col-lg-4 research-item" data-category="infectious" data-aos="fade-up" data-aos-delay="100">
+          <div class="research-card">
+            <div class="research-card-top">
+              <span class="research-tag infectious">Infectious Disease</span>
+              <span class="research-year">2022</span>
+            </div>
+            <h3 class="research-title">COVID-19 vaccine hesitancy among healthcare workers in Nepal: a mixed-methods
+              study</h3>
+            <p class="research-authors"><i class="bi bi-people me-1"></i>Rana K., <strong>Sharma P.</strong>, Manandhar
+              S., et al.</p>
+            <p class="research-journal"><i class="bi bi-journal-bookmark me-1"></i>Vaccine · Vol. 40, Issue 34</p>
+            <p class="research-abstract">Explores determinants of COVID-19 vaccine acceptance and refusal among 900+
+              healthcare workers across five teaching hospitals in Kathmandu Valley...</p>
+            <div class="research-metrics">
+              <span><i class="bi bi-eye me-1"></i>5,330 views</span>
+              <span><i class="bi bi-quote me-1"></i>112 citations</span>
+            </div>
+            <a href="#" class="research-link" id="pub-5">Read Article <i class="bi bi-arrow-up-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Article 6 -->
+        <div class="col-md-6 col-lg-4 research-item" data-category="maternal" data-aos="fade-up" data-aos-delay="200">
+          <div class="research-card">
+            <div class="research-card-top">
+              <span class="research-tag maternal">Maternal &amp; Child Health</span>
+              <span class="research-year">2021</span>
+            </div>
+            <h3 class="research-title">Skilled birth attendance and institutional delivery disparities in Nepal's rural
+              districts: trends 2011–2021</h3>
+            <p class="research-authors"><i class="bi bi-people me-1"></i><strong>Sharma P.</strong>, Poudel P., Basnet
+              S.</p>
+            <p class="research-journal"><i class="bi bi-journal-bookmark me-1"></i>BMC Pregnancy &amp; Childbirth · Vol.
+              21</p>
+            <p class="research-abstract">Analysis of decade-long trends in skilled birth attendance with focus on
+              rural-urban and caste-based inequalities across 34 districts...</p>
+            <div class="research-metrics">
+              <span><i class="bi bi-eye me-1"></i>2,640 views</span>
+              <span><i class="bi bi-quote me-1"></i>54 citations</span>
+            </div>
+            <a href="#" class="research-link" id="pub-6">Read Article <i class="bi bi-arrow-up-right"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="text-center mt-5" data-aos="fade-up">
+        <a href="#" id="view-all-pubs" class="btn btn-outline-primary btn-lg px-5">
+          <i class="bi bi-journal-richtext me-2"></i>View All Publications (18)
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SKILLS SECTION
+  ============================================================ -->
+  <section id="skills" class="section-padding">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <div class="section-tag mx-auto">Expertise</div>
+        <h2 class="section-title">Skills &amp; <span class="gradient-text">Competencies</span></h2>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-6" data-aos="fade-right">
+          <h3 class="skills-group-title"><i class="bi bi-bar-chart-line-fill me-2"></i>Research & Analytics</h3>
+          <div class="skill-bar-list">
+            <div class="skill-item">
+              <div class="skill-info"><span>Epidemiological Study Design</span><span class="skill-pct">95%</span></div>
+              <div class="skill-progress">
+                <div class="skill-fill" style="--fill: 95%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Biostatistics (R / STATA / SPSS)</span><span class="skill-pct">90%</span>
+              </div>
+              <div class="skill-progress">
+                <div class="skill-fill" style="--fill: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Qualitative Research Methods</span><span class="skill-pct">85%</span></div>
+              <div class="skill-progress">
+                <div class="skill-fill" style="--fill: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>GIS / Health Mapping (ArcGIS, QGIS)</span><span class="skill-pct">80%</span>
+              </div>
+              <div class="skill-progress">
+                <div class="skill-fill" style="--fill: 80%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Systematic Review &amp; Meta-Analysis</span><span
+                  class="skill-pct">88%</span></div>
+              <div class="skill-progress">
+                <div class="skill-fill" style="--fill: 88%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6" data-aos="fade-left">
+          <h3 class="skills-group-title"><i class="bi bi-clipboard2-pulse-fill me-2"></i>Public Health Programs</h3>
+          <div class="skill-bar-list">
+            <div class="skill-item">
+              <div class="skill-info"><span>Disease Surveillance &amp; Outbreak Response</span><span
+                  class="skill-pct">92%</span></div>
+              <div class="skill-progress">
+                <div class="skill-fill" style="--fill: 92%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Program Design, M&amp;E Frameworks</span><span class="skill-pct">90%</span>
+              </div>
+              <div class="skill-progress">
+                <div class="skill-fill" style="--fill: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Health Policy Analysis</span><span class="skill-pct">85%</span></div>
+              <div class="skill-progress">
+                <div class="skill-fill" style="--fill: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Community Health Mobilization</span><span class="skill-pct">88%</span></div>
+              <div class="skill-progress">
+                <div class="skill-fill" style="--fill: 88%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Grant Writing &amp; Donor Reporting</span><span class="skill-pct">82%</span>
+              </div>
+              <div class="skill-progress">
+                <div class="skill-fill" style="--fill: 82%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tools & Software -->
+      <div class="mt-5" data-aos="fade-up">
+        <h3 class="skills-group-title text-center mb-4"><i class="bi bi-tools me-2"></i>Tools &amp; Software</h3>
+        <div class="tools-grid">
+          <div class="tool-chip"><i class="bi bi-bar-chart-steps"></i>R / RStudio</div>
+          <div class="tool-chip"><i class="bi bi-calculator"></i>STATA</div>
+          <div class="tool-chip"><i class="bi bi-graph-up"></i>SPSS</div>
+          <div class="tool-chip"><i class="bi bi-map-fill"></i>ArcGIS</div>
+          <div class="tool-chip"><i class="bi bi-map"></i>QGIS</div>
+          <div class="tool-chip"><i class="bi bi-microsoft"></i>DHIS2</div>
+          <div class="tool-chip"><i class="bi bi-file-spreadsheet"></i>RedCAP</div>
+          <div class="tool-chip"><i class="bi bi-layers-fill"></i>Epi Info</div>
+          <div class="tool-chip"><i class="bi bi-table"></i>Excel / Power BI</div>
+          <div class="tool-chip"><i class="bi bi-file-earmark-text"></i>Zotero / Mendeley</div>
+          <div class="tool-chip"><i class="bi bi-code-square"></i>Python (Pandas)</div>
+          <div class="tool-chip"><i class="bi bi-file-richtext"></i>NVivo</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       AWARDS & RECOGNITION
+  ============================================================ -->
+  <section id="awards" class="section-padding bg-light-section">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <div class="section-tag mx-auto">Recognition</div>
+        <h2 class="section-title">Awards &amp; <span class="gradient-text">Honors</span></h2>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="0">
+          <div class="award-card">
+            <div class="award-icon"><i class="bi bi-trophy-fill"></i></div>
+            <h4 class="award-title">Young Researcher Award</h4>
+            <p class="award-org">South Asian Public Health Federation</p>
+            <p class="award-year">2024</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+          <div class="award-card featured">
+            <div class="award-icon"><i class="bi bi-star-fill"></i></div>
+            <h4 class="award-title">Harvard Dean's Award</h4>
+            <p class="award-org">Harvard T.H. Chan School of Public Health</p>
+            <p class="award-year">2017</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+          <div class="award-card">
+            <div class="award-icon"><i class="bi bi-globe-asia-australia"></i></div>
+            <h4 class="award-title">WHO Excellence in Public Health</h4>
+            <p class="award-org">World Health Organization</p>
+            <p class="award-year">2023</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
+          <div class="award-card">
+            <div class="award-icon"><i class="bi bi-journal-richtext"></i></div>
+            <h4 class="award-title">Best Paper Award</h4>
+            <p class="award-org">International Epidemiology Congress</p>
+            <p class="award-year">2022</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT SECTION
+  ============================================================ -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <div class="section-tag mx-auto">Let's Connect</div>
+        <h2 class="section-title">Get in <span class="gradient-text">Touch</span></h2>
+        <p class="section-subtitle">For research collaborations, speaking engagements, consultancy, or general
+          inquiries.</p>
+      </div>
+
+      <div class="row g-5 align-items-start">
+
+        <!-- Contact Info -->
+        <div class="col-lg-5" data-aos="fade-right">
+          <div class="contact-info-card">
+            <h3 class="contact-info-title mb-4">Contact Information</h3>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="bi bi-envelope-fill"></i></div>
+              <div>
+                <small>Email Address</small>
+                <a href="mailto:surendrabista@gmail.com" id="contact-email-link">surendrabista@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="bi bi-telephone-fill"></i></div>
+              <div>
+                <small>Phone</small>
+                <a href="tel:+9779845134527" id="contact-phone-link">+977-9845134527</a>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="bi bi-geo-alt-fill"></i></div>
+              <div>
+                <small>Office Address</small>
+                <span>WHO Nepal Office, UN House, Pulchowk, Lalitpur, Nepal</span>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="bi bi-clock-fill"></i></div>
+              <div>
+                <small>Office Hours</small>
+                <span>Mon – Fri, 9:00 AM – 5:00 PM (NPT)</span>
+              </div>
+            </div>
+
+            <div class="contact-social mt-4">
+              <a href="#" id="contact-linkedin" class="social-btn" aria-label="LinkedIn"><i
+                  class="bi bi-linkedin"></i></a>
+              <a href="#" id="contact-researchgate" class="social-btn" aria-label="ResearchGate"><i
+                  class="bi bi-graph-up-arrow"></i></a>
+              <a href="#" id="contact-scholar" class="social-btn" aria-label="Google Scholar"><i
+                  class="bi bi-mortarboard-fill"></i></a>
+              <a href="#" id="contact-twitter" class="social-btn" aria-label="Twitter"><i
+                  class="bi bi-twitter-x"></i></a>
+              <a href="#" id="contact-orcid" class="social-btn" aria-label="ORCID"><i
+                  class="bi bi-person-badge-fill"></i></a>
+            </div>
+          </div>
+
+          <!-- Map -->
+          <div class="contact-map mt-4 rounded-3 overflow-hidden shadow-sm" data-aos="fade-up">
+            <iframe title="WHO Nepal Office Location"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.2538!2d85.3152!3d27.6710!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19b5b2f1e6d7%3A0x3e5d2bce2a6e1a3!2sUN%20House%2C%20Pulchowk%2C%20Lalitpur!5e0!3m2!1sen!2snp!4v1710000000000!5m2!1sen!2snp"
+              width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-lg-7" data-aos="fade-left">
+          <div class="contact-form-card">
+            <h3 class="contact-info-title mb-4">Send a Message</h3>
+            <form id="contactForm" novalidate>
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <label for="formName" class="form-label">Full Name <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="formName" placeholder="Dr. John Smith" required>
+                  <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+                <div class="col-sm-6">
+                  <label for="formEmail" class="form-label">Email Address <span class="text-danger">*</span></label>
+                  <input type="email" class="form-control" id="formEmail" placeholder="john@institution.org" required>
+                  <div class="invalid-feedback">Please enter a valid email.</div>
+                </div>
+                <div class="col-12">
+                  <label for="formOrg" class="form-label">Organization / Affiliation</label>
+                  <input type="text" class="form-control" id="formOrg" placeholder="Johns Hopkins University">
+                </div>
+                <div class="col-12">
+                  <label for="formSubject" class="form-label">Subject <span class="text-danger">*</span></label>
+                  <select class="form-select" id="formSubject" required>
+                    <option value="" disabled selected>Select inquiry type…</option>
+                    <option value="collaboration">Research Collaboration</option>
+                    <option value="speaking">Speaking / Conference</option>
+                    <option value="consultancy">Consultancy</option>
+                    <option value="media">Media / Press</option>
+                    <option value="other">Other</option>
+                  </select>
+                  <div class="invalid-feedback">Please select a subject.</div>
+                </div>
+                <div class="col-12">
+                  <label for="formMessage" class="form-label">Message <span class="text-danger">*</span></label>
+                  <textarea class="form-control" id="formMessage" rows="5"
+                    placeholder="Tell me about your project or inquiry…" required></textarea>
+                  <div class="invalid-feedback">Please write a message.</div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" id="submitBtn" class="btn btn-primary btn-lg w-100">
+                    <span class="btn-text"><i class="bi bi-send-fill me-2"></i>Send Message</span>
+                    <span class="btn-loading d-none"><span class="spinner-border spinner-border-sm me-2"
+                        role="status"></span>Sending…</span>
+                  </button>
+                </div>
+                <div class="col-12">
+                  <div id="formAlert" class="alert d-none" role="alert"></div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <h4 class="footer-brand">Mr. Surendra Kumar Bista</h4>
+            <p class="footer-desc">BPH Specialist committed to advancing community health and public health equity
+              through evidence-based practice and health promotion.</p>
+            <div class="footer-socials">
+              <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+              <a href="#" aria-label="ResearchGate"><i class="bi bi-graph-up-arrow"></i></a>
+              <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+              <a href="#" aria-label="Google Scholar"><i class="bi bi-mortarboard-fill"></i></a>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2 offset-lg-2">
+            <h5 class="footer-heading">Navigation</h5>
+            <ul class="footer-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#academic">Academic</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#research">Research</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <h5 class="footer-heading">More</h5>
+            <ul class="footer-links">
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#awards">Awards</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#">Download CV</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <h5 class="footer-heading">External</h5>
+            <ul class="footer-links">
+              <li><a href="#" target="_blank">PubMed Profile</a></li>
+              <li><a href="#" target="_blank">Google Scholar</a></li>
+              <li><a href="#" target="_blank">ORCID</a></li>
+              <li><a href="#" target="_blank">ResearchGate</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center gap-2">
+          <span>© <span id="footer-year"></span> Mr. Surendra Kumar Bista. All rights reserved.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS Animation -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
